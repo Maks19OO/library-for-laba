@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "library-for-laba"
+version = "0.1.0"
+description = "Библиотека для работы с табличными данными"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "ММБ ДИРПО25-1с" }]
+keywords = ["table", "csv", "data"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/Maks19OO/library-for-laba"
+Repository = "https://github.com/Maks19OO/library-for-laba"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["library_for_laba*"]
